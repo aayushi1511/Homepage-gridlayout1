@@ -1,9 +1,9 @@
 import React from 'react';
-import home from '../../assets/home.svg';
-import listadd from '../../assets/listadd.svg';
-import browse from '../../assets/browse.svg';
-import search from '../../assets/search.svg';
-import account from '../../assets/account.svg';
+import home from '../../../assets/home.svg';
+import listadd from '../../../assets/listadd.svg';
+import browse from '../../../assets/browse.svg';
+import search from '../../../assets/search.svg';
+import account from '../../../assets/account.svg';
 
 export const SidebarData = [
   {

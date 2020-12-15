@@ -13,9 +13,10 @@ export default {
 
 const Template = (args) => <NavImage {...args} />;
 
-export const ProfileImg = Template.bind({});
-ProfileImg.args = {
-  primary: true,
-  label: 'profileImage',
-  image: profile
-};
+// export const ProfileImg = Template.bind({});
+// console.log('profile', profile);
+// ProfileImg.args = {
+//   primary: true,
+//   label: 'profileImage',
+//   image: profile
+// };

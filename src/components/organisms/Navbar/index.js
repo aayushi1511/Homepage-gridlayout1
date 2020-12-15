@@ -3,11 +3,11 @@ import * as FaIcons from "react-icons/fa";
 import { SidebarData } from "./SidebarData";
 import "./Navbar.scss";
 import { IconContext } from "react-icons";
-import { NavList } from "../molecules/NavList";
-import { NavProfile } from "../molecules/NavProfile";
-import profile from '../../assets/profile.jpg';
+import { NavList } from "../../molecules/NavList";
+import { NavProfile } from "../../molecules/NavProfile";
+import profile from '../../../assets/profile.jpg';
 
-function Navbar() {
+const Navbar = () => {
   const [sidebar, setSidebar] = useState(false);
 
   const showSidebar = () => setSidebar(!sidebar);

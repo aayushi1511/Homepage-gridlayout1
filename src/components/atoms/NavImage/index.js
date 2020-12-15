@@ -1,5 +1,7 @@
 import React from 'react';
 import './NavImage.scss';
+import profile from '../../../assets/profile.jpg'
+
 
 export const NavImage = (props) => {
     return(
