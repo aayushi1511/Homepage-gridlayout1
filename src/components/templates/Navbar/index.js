@@ -5,6 +5,7 @@ import "./Navbar.scss";
 import { IconContext } from "react-icons";
 import { NavList } from "../../molecules/NavList";
 import { NavProfile } from "../../molecules/NavProfile";
+import NavigationContent from '../../organisms/NavbarContent';
 import profile from '../../../assets/profile.jpg';
 
 const Navbar = () => {
@@ -21,9 +22,9 @@ const Navbar = () => {
         <nav className={sidebar ? "nav-menu active" : "nav-menu"}>
           <ul className="nav-menu-items" onClick={showSidebar}>
             <li className="navbar-toggle">
-              <NavProfile image={profile} name='Dad'/>
+              <NavProfile image={profile} name='Name'/>
             </li>
-            <div className='nav--outer'>
+            {/* <div className='nav--outer'>
             {SidebarData.map((item, index) => {
               return (
                 <NavList
@@ -34,7 +35,8 @@ const Navbar = () => {
                 />
               );
             })}
-             </div>
+             </div> */}
+             <NavigationContent />
           </ul>
         </nav>
       </IconContext.Provider>

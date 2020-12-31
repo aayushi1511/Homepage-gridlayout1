@@ -7,7 +7,7 @@ export const NavProfile = (props) => {
   return (
     <div className='profileImg'>
       <NavImage image={props.image} profile />
-      <NavName name={props.name} profile/>
+      <NavName name={props.name} />
     </div>
   );
 };
