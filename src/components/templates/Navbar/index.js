@@ -1,9 +1,7 @@
 import React, { useState } from "react";
 import * as FaIcons from "react-icons/fa";
-import { SidebarData } from "./SidebarData";
 import "./Navbar.scss";
 import { IconContext } from "react-icons";
-import { NavList } from "../../molecules/NavList";
 import { NavProfile } from "../../molecules/NavProfile";
 import NavigationContent from '../../organisms/NavbarContent';
 import profile from '../../../assets/profile.jpg';
@@ -24,18 +22,6 @@ const Navbar = () => {
             <li className="navbar-toggle">
               <NavProfile image={profile} name='Name'/>
             </li>
-            {/* <div className='nav--outer'>
-            {SidebarData.map((item, index) => {
-              return (
-                <NavList
-                  key={index}
-                  className={item.cName}
-                  image={item.icon}
-                  name={item.title}
-                />
-              );
-            })}
-             </div> */}
              <NavigationContent />
           </ul>
         </nav>
